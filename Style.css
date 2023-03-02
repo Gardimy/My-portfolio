@@ -74,10 +74,10 @@ nav {
   animation: flip 1s linear;
 }
 
- @media (max-width:768px) {
+@media (max-width: 768px) {
   nav .Mylogo {
     margin-left: 10px;
-	line-height: 20px;
+    line-height: 20px;
     font-weight: 700;
     font-size: 18px;
     align-self: center;
@@ -863,7 +863,7 @@ form {
     width: 40%;
 	gap: 31px;
   }
-  
+
   .get-in-touch {
     margin-left: auto;
     margin-right: auto;
