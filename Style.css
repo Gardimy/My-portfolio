@@ -53,7 +53,6 @@ nav {
   color: rgba(0, 4, 255, 0.603);
   left: 12px;
   line-height: 100px;
-  font: 'poppins';
   cursor: pointer;
   font-weight: 700;
   align-content: center;
@@ -75,24 +74,23 @@ nav {
   animation: flip 1s linear;
 }
 
-@media(max-width:768px) {	
+ @media (max-width:768px) {
   nav .Mylogo {
     margin-left: 10px;
 	line-height: 20px;
-	font-weight: 700;
-	font-size: 18px;
-	align-self: center;
-	height: 20px;
-	top: 10px;
-	left: 12px;
-	width: 76px;
-	height: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    align-self: center;
+    height: 20px;
+    top: 10px;
+    left: 12px;
+    width: 76px;
   }
 
   .option li a {
-	display: inline-block;
-	padding: 15px;
-	text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
 	text-transform: none;
 	color: white;
 	font-size: 32px;
@@ -101,8 +99,8 @@ nav {
 
    .option {
     flex-direction: column;
-	display: none;
-	height: 100vh;
+    display: none;
+    height: 100vh;
 	position: fixed;
 	top: 0;
 	right: 0;
@@ -647,7 +645,6 @@ form {
 	top: 10px;
 	left: 12px;
 	line-height: 70px;
-	font: 'poppins';
 	cursor: pointer;
 	font-weight: 700;
 	align-content: center;
@@ -864,10 +861,9 @@ form {
 
   .form {
     width: 40%;
-	gap: 30px;
+	gap: 31px;
   }
-
-
+  
   .get-in-touch {
     margin-left: auto;
     margin-right: auto;
