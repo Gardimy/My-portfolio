@@ -1,6 +1,4 @@
-# Porfolio: Mobile-menu
-A Microverse exercise to implement the hamberger of the mobile version
-<a name="readme-top"></a>
+
 
 <div align="center">
   <h3><b>Mobile-menu</b></h3>

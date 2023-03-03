@@ -53,7 +53,6 @@ nav {
   color: rgba(0, 4, 255, 0.603);
   left: 12px;
   line-height: 100px;
-  font: 'poppins';
   cursor: pointer;
   font-weight: 700;
   align-content: center;
@@ -75,62 +74,60 @@ nav {
   animation: flip 1s linear;
 }
 
-@media(max-width:768px) {	
+@media (max-width: 768px) {
   nav .Mylogo {
     margin-left: 10px;
-	line-height: 20px;
-	font-weight: 700;
-	font-size: 18px;
-	align-self: center;
-	height: 20px;
-	top: 10px;
-	left: 12px;
-	width: 76px;
-	height: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    align-self: center;
+    height: 20px;
+    top: 10px;
+    left: 12px;
+    width: 76px;
   }
 
   .option li a {
-	display: inline-block;
-	padding: 15px;
-	text-decoration: none;
-	text-transform: none;
-	color: white;
-	font-size: 32px;
-	font-weight: 500;
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: none;
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
   }
 
-   .option {
+  .option {
     flex-direction: column;
-	display: none;
-	height: 100vh;
-	position: fixed;
-	top: 0;
-	right: 0;
-	left: 0;
+    display: none;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
     background-color: #6070ff;
-	mix-blend-mode: multiply;
-	transition: top 1 ease;
-	z-index: 10;
-	list-style: none;
-	padding-top: 80px;
+    mix-blend-mode: multiply;
+    z-index: 10;
+    list-style: none;
+    padding-top: 80px;
   }
 
   .option .closemenu {
-	display: block;
-	position: absolute;
-	top: 20px;
-	width: 16px;
+    display: block;
+    position: absolute;
+    top: 20px;
+    width: 16px;
   }
-  
+
   .openmenu {
-	display: block;
-	margin-left: 300px;
+    display: block;
+    margin-left: 300px;
   }
 
   .option li a:hover {
-	background: none;
-	color: rgba(0, 255, 213, 0.849);
-	font-size: 1.6rem;
+    background: none;
+    color: rgba(0, 255, 213, 0.849);
+    font-size: 1.6rem;
   }
 }
 
@@ -349,7 +346,6 @@ header {
   font-size: 12px;
   text-align: center;
   line-height: 16px;
-  letter-spacing: 0.03em;
   color: rgb(61, 81, 255);
   padding: 4px 12px;
   background: #ebebff;
@@ -365,7 +361,6 @@ header {
   font-size: 12px;
   text-align: center;
   line-height: 16px;
-  letter-spacing: 0.03em;
   color: rgb(61, 81, 255);
   padding: 4px 12px;
   background: #ebebff;
@@ -381,7 +376,6 @@ header {
   font-size: 12px;
   text-align: center;
   line-height: 16px;
-  letter-spacing: 0.03em;
   color: rgb(61, 81, 255);
   padding: 4px 12px;
   background: #ebebff;
@@ -425,7 +419,6 @@ header {
   border-top-right-radius: 80px;
   padding: 114px 24px;
   background-color: #fff;
-  margin-left: 0px;
 }
 
 .about {
@@ -534,11 +527,11 @@ header {
   background-size: 100%;
   background-position: top right;
   background-repeat: no-repeat;
-
 }
 
 .Myform {
   background-color: #fff;
+  margin-top: 55px;
 }
 
 .contact-head {
@@ -558,10 +551,6 @@ header {
   text-align: center;
   color: #ebebff;
   margin: 0;
-}
-
-.Myform {
-  margin-top: 55px;
 }
 
 form {
@@ -633,37 +622,32 @@ form {
   }
 
   body {
-	margin: 0;
-	background-color: #e5e5e5;
-	font-family: sans-serif;
-	width: 1440px;
+    margin: 0;
+    background-color: #e5e5e5;
+    font-family: sans-serif;
+    width: 1440px;
   }
 
   .Mylogo {
-	color: rgba(0, 4, 255, 0.603);
-	width: 76px;
-	height: 20px;
-	margin-left: 4px;
-	top: 10px;
-	left: 12px;
-	line-height: 70px;
-	font: 'poppins';
-	cursor: pointer;
-	font-weight: 700;
-	align-content: center;
-	font-size: 18px;
-	transition: all 0.2s ease;
-  }
-  
-  .option {
-	display: flex;
-	list-style: none;
+    color: rgba(0, 4, 255, 0.603);
+    width: 76px;
+    height: 20px;
+    margin-left: 4px;
+    top: 10px;
+    left: 12px;
+    line-height: 70px;
+    cursor: pointer;
+    font-weight: 700;
+    align-content: center;
+    font-size: 18px;
+    transition: all 0.2s ease;
   }
 
-  .option li a {
-    color: rgba(0, 4, 255, 0.603);
-	}
-	
+  .option {
+    display: flex;
+    list-style: none;
+  }
+
   .option li a {
     display: inline-block;
     padding: 15px;
@@ -671,14 +655,15 @@ form {
     text-transform: none;
     font-size: 1.2rem;
     font-weight: 500;
+    color: rgba(0, 4, 255, 0.603);
   }
 
-  .closemenu , i {
+  .closemenu {
     display: none;
-	}
+  }
 
   .title {
-	height: 950px;
+    height: 950px;
     background-image: url("Images/Desktop-bg.png");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -687,8 +672,8 @@ form {
   }
 
   .title1 {
-	width: 920px;
-	height: 122px;
+    width: 920px;
+    height: 122px;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -698,9 +683,9 @@ form {
   }
 
   .title2 {
-	width: 920px;
-	height: 96px;
-	top: 134px;
+    width: 920px;
+    height: 96px;
+    top: 134px;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -709,17 +694,17 @@ form {
   }
 
   .work-container {
-	padding: 114px 24px;
+    padding: 114px 24px;
   }
 
   .container {
-	width: 1156px;
-	height: 496px;
+    width: 1156px;
+    height: 496px;
     display: flex;
     flex-direction: row;
     gap: 22px;
     padding: 24px;
-	margin: 0;
+    margin: 0;
   }
 
   .desktop {
@@ -736,11 +721,11 @@ form {
   }
 
   .Tonic {
-	width: 496px;
+    width: 496px;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
-	color: #091e42;
+    color: #091e42;
     line-height: 52px;
   }
 
@@ -781,20 +766,20 @@ form {
   }
 
   .point {
-	width: 8px;
-	height: 8px;
-	top: 12px;
-	color: #c1c7d0;
-	background: #c1c7d0;
-	margin-top: 8px;
-	margin-left: 20px;
+    width: 8px;
+    height: 8px;
+    top: 12px;
+    color: #c1c7d0;
+    background: #c1c7d0;
+    margin-top: 8px;
+    margin-left: 20px;
   }
 
   .description {
-	width: 496px;
-	height: 50px;
-	top: 146px;
-	left: 24px;
+    width: 496px;
+    height: 50px;
+    top: 146px;
+    left: 24px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -804,25 +789,25 @@ form {
   }
 
   .about-container {
-	display: flex;
-	height: 750px;
-	width: 1440px;
+    display: flex;
+    height: 750px;
+    width: 1440px;
     flex-direction: row;
     gap: 26px;
     padding: 145px;
   }
 
   .about {
-    width:65%;
+    width: 65%;
   }
 
   .title4 {
-	width: 447px;
-	height: 102px;
-	top: 126px;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 24px;
+    width: 447px;
+    height: 102px;
+    top: 126px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
   }
 
   .languages-list {
@@ -832,21 +817,20 @@ form {
 
   .languages-Icon {
     display: flex;
-	flex-direction: column;
+    flex-direction: column;
     align-items: flex-start;
     padding: 0;
-	height: 120px;
+    height: 120px;
   }
 
   .Icons {
     padding: 10px 32px;
-	margin-left: 0;
+    margin-left: 0;
   }
 
   .form-contact {
-	
-	background-image: url(Images/Desktop-bg2.png);
-	background-size: 100%;
+    background-image: url(Images/Desktop-bg2.png);
+    background-size: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -854,19 +838,18 @@ form {
 
   .contact-text {
     width: 569px;
-	height: 102px;
-	top: 68px;
-	left: 116px;
-	font-size: 20px;
-	font-weight: 400;
-	line-height: 28px;
+    height: 102px;
+    top: 68px;
+    left: 116px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
   }
 
   .form {
     width: 40%;
-	gap: 30px;
+    gap: 31px;
   }
-
 
   .get-in-touch {
     margin-left: auto;
