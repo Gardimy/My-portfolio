@@ -118,7 +118,7 @@ nav {
     top: 20px;
     width: 16px;
   }
-  
+
   .openmenu {
     display: block;
     margin-left: 300px;
@@ -346,7 +346,6 @@ header {
   font-size: 12px;
   text-align: center;
   line-height: 16px;
-  letter-spacing: 0.03em;
   color: rgb(61, 81, 255);
   padding: 4px 12px;
   background: #ebebff;
@@ -362,7 +361,6 @@ header {
   font-size: 12px;
   text-align: center;
   line-height: 16px;
-  letter-spacing: 0.03em;
   color: rgb(61, 81, 255);
   padding: 4px 12px;
   background: #ebebff;
@@ -378,7 +376,6 @@ header {
   font-size: 12px;
   text-align: center;
   line-height: 16px;
-  letter-spacing: 0.03em;
   color: rgb(61, 81, 255);
   padding: 4px 12px;
   background: #ebebff;
@@ -422,7 +419,6 @@ header {
   border-top-right-radius: 80px;
   padding: 114px 24px;
   background-color: #fff;
-  margin-left: 0px;
 }
 
 .about {
@@ -531,11 +527,11 @@ header {
   background-size: 100%;
   background-position: top right;
   background-repeat: no-repeat;
-
 }
 
 .Myform {
   background-color: #fff;
+  margin-top: 55px;
 }
 
 .contact-head {
@@ -555,10 +551,6 @@ header {
   text-align: center;
   color: #ebebff;
   margin: 0;
-}
-
-.Myform {
-  margin-top: 55px;
 }
 
 form {
@@ -650,16 +642,12 @@ form {
     font-size: 18px;
     transition: all 0.2s ease;
   }
-  
+
   .option {
     display: flex;
     list-style: none;
   }
 
-  .option li a {
-    color: rgba(0, 4, 255, 0.603);
-    }
-    
   .option li a {
     display: inline-block;
     padding: 15px;
@@ -667,11 +655,12 @@ form {
     text-transform: none;
     font-size: 1.2rem;
     font-weight: 500;
+    color: rgba(0, 4, 255, 0.603);
   }
 
   .closemenu , i {
     display: none;
-    }
+  }
 
   .title {
     height: 950px;
@@ -840,7 +829,6 @@ form {
   }
 
   .form-contact {
-    
     background-image: url(Images/Desktop-bg2.png);
     background-size: 100%;
     display: flex;
