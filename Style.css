@@ -91,44 +91,43 @@ nav {
     display: inline-block;
     padding: 15px;
     text-decoration: none;
-	text-transform: none;
-	color: white;
-	font-size: 32px;
-	font-weight: 500;
+    text-transform: none;
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
   }
 
-   .option {
+  .option {
     flex-direction: column;
     display: none;
     height: 100vh;
-	position: fixed;
-	top: 0;
-	right: 0;
-	left: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
     background-color: #6070ff;
-	mix-blend-mode: multiply;
-	transition: top 1 ease;
-	z-index: 10;
-	list-style: none;
-	padding-top: 80px;
+    mix-blend-mode: multiply;
+    z-index: 10;
+    list-style: none;
+    padding-top: 80px;
   }
 
   .option .closemenu {
-	display: block;
-	position: absolute;
-	top: 20px;
-	width: 16px;
+    display: block;
+    position: absolute;
+    top: 20px;
+    width: 16px;
   }
   
   .openmenu {
-	display: block;
-	margin-left: 300px;
+    display: block;
+    margin-left: 300px;
   }
 
   .option li a:hover {
-	background: none;
-	color: rgba(0, 255, 213, 0.849);
-	font-size: 1.6rem;
+    background: none;
+    color: rgba(0, 255, 213, 0.849);
+    font-size: 1.6rem;
   }
 }
 
@@ -631,36 +630,36 @@ form {
   }
 
   body {
-	margin: 0;
-	background-color: #e5e5e5;
-	font-family: sans-serif;
-	width: 1440px;
+    margin: 0;
+    background-color: #e5e5e5;
+    font-family: sans-serif;
+    width: 1440px;
   }
 
   .Mylogo {
-	color: rgba(0, 4, 255, 0.603);
-	width: 76px;
-	height: 20px;
-	margin-left: 4px;
-	top: 10px;
-	left: 12px;
-	line-height: 70px;
-	cursor: pointer;
-	font-weight: 700;
-	align-content: center;
-	font-size: 18px;
-	transition: all 0.2s ease;
+    color: rgba(0, 4, 255, 0.603);
+    width: 76px;
+    height: 20px;
+    margin-left: 4px;
+    top: 10px;
+    left: 12px;
+    line-height: 70px;
+    cursor: pointer;
+    font-weight: 700;
+    align-content: center;
+    font-size: 18px;
+    transition: all 0.2s ease;
   }
   
   .option {
-	display: flex;
-	list-style: none;
+    display: flex;
+    list-style: none;
   }
 
   .option li a {
     color: rgba(0, 4, 255, 0.603);
-	}
-	
+    }
+    
   .option li a {
     display: inline-block;
     padding: 15px;
@@ -672,10 +671,10 @@ form {
 
   .closemenu , i {
     display: none;
-	}
+    }
 
   .title {
-	height: 950px;
+    height: 950px;
     background-image: url("Images/Desktop-bg.png");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -684,8 +683,8 @@ form {
   }
 
   .title1 {
-	width: 920px;
-	height: 122px;
+    width: 920px;
+    height: 122px;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -695,9 +694,9 @@ form {
   }
 
   .title2 {
-	width: 920px;
-	height: 96px;
-	top: 134px;
+    width: 920px;
+    height: 96px;
+    top: 134px;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -706,17 +705,17 @@ form {
   }
 
   .work-container {
-	padding: 114px 24px;
+    padding: 114px 24px;
   }
 
   .container {
-	width: 1156px;
-	height: 496px;
+    width: 1156px;
+    height: 496px;
     display: flex;
     flex-direction: row;
     gap: 22px;
     padding: 24px;
-	margin: 0;
+    margin: 0;
   }
 
   .desktop {
@@ -733,11 +732,11 @@ form {
   }
 
   .Tonic {
-	width: 496px;
+    width: 496px;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
-	color: #091e42;
+    color: #091e42;
     line-height: 52px;
   }
 
@@ -778,20 +777,20 @@ form {
   }
 
   .point {
-	width: 8px;
-	height: 8px;
-	top: 12px;
-	color: #c1c7d0;
-	background: #c1c7d0;
-	margin-top: 8px;
-	margin-left: 20px;
+    width: 8px;
+    height: 8px;
+    top: 12px;
+    color: #c1c7d0;
+    background: #c1c7d0;
+    margin-top: 8px;
+    margin-left: 20px;
   }
 
   .description {
-	width: 496px;
-	height: 50px;
-	top: 146px;
-	left: 24px;
+    width: 496px;
+    height: 50px;
+    top: 146px;
+    left: 24px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -801,9 +800,9 @@ form {
   }
 
   .about-container {
-	display: flex;
-	height: 750px;
-	width: 1440px;
+    display: flex;
+    height: 750px;
+    width: 1440px;
     flex-direction: row;
     gap: 26px;
     padding: 145px;
@@ -814,12 +813,12 @@ form {
   }
 
   .title4 {
-	width: 447px;
-	height: 102px;
-	top: 126px;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 24px;
+    width: 447px;
+    height: 102px;
+    top: 126px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
   }
 
   .languages-list {
@@ -829,21 +828,21 @@ form {
 
   .languages-Icon {
     display: flex;
-	flex-direction: column;
+    flex-direction: column;
     align-items: flex-start;
     padding: 0;
-	height: 120px;
+    height: 120px;
   }
 
   .Icons {
     padding: 10px 32px;
-	margin-left: 0;
+    margin-left: 0;
   }
 
   .form-contact {
-	
-	background-image: url(Images/Desktop-bg2.png);
-	background-size: 100%;
+    
+    background-image: url(Images/Desktop-bg2.png);
+    background-size: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -851,17 +850,17 @@ form {
 
   .contact-text {
     width: 569px;
-	height: 102px;
-	top: 68px;
-	left: 116px;
-	font-size: 20px;
-	font-weight: 400;
-	line-height: 28px;
+    height: 102px;
+    top: 68px;
+    left: 116px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
   }
 
   .form {
     width: 40%;
-	gap: 31px;
+    gap: 31px;
   }
 
   .get-in-touch {
